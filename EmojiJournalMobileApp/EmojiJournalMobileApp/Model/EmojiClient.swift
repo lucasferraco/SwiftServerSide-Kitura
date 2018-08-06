@@ -19,7 +19,7 @@ enum EmojiClientError: Error {
 extension UIApplication {
     var isDebugMode: Bool {
         let dictionary = ProcessInfo.processInfo.environment
-        return dictionary["DEBUGMODE"] != nil
+        return true//dictionary["DEBUGMODE"] != nil
     }
 }
 
@@ -56,12 +56,14 @@ class EmojiClient {
         UIApplication.shared.isNetworkActivityIndicatorVisible = true
         
         client.post("/entries", data: entry) { (savedEntry: JournalEntry?, error: RequestError?) in
-            UIApplication.shared.isNetworkActivityIndicatorVisible = false
-            
-            if let _ = error {
-                completion(nil, EmojiClientError.couldNotAdd(entry))
-            } else {
-                completion(savedEntry, nil)
+            DispatchQueue.main.async {
+                UIApplication.shared.isNetworkActivityIndicatorVisible = false
+                
+                if let _ = error {
+                    completion(nil, EmojiClientError.couldNotAdd(entry))
+                } else {
+                    completion(savedEntry, nil)
+                }
             }
         }
     }
@@ -72,12 +74,14 @@ class EmojiClient {
         UIApplication.shared.isNetworkActivityIndicatorVisible = true
         
         client.delete("/entries", identifier: id) { (error) in
-            UIApplication.shared.isNetworkActivityIndicatorVisible = false
-            
-            if let _ = error {
-                completion(EmojiClientError.couldNotDelete(entry))
-            } else {
-                completion(nil)
+            DispatchQueue.main.async {
+                UIApplication.shared.isNetworkActivityIndicatorVisible = false
+                
+                if let _ = error {
+                    completion(EmojiClientError.couldNotDelete(entry))
+                } else {
+                    completion(nil)
+                }
             }
         }
     }
