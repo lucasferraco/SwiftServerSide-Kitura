@@ -41,6 +41,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		2DB3DDEC2118C4E4007C4CEA /* EntryPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB3DDEB2118C4E4007C4CEA /* EntryPersistence.swift */; };
 		OBJ_1002 /* PathKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_231 /* PathKit.swift */; };
 		OBJ_1009 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_230 /* Package.swift */; };
 		OBJ_1014 /* SSLService.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_382 /* SSLService.swift */; };
@@ -1913,6 +1914,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DB3DDEB2118C4E4007C4CEA /* EntryPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryPersistence.swift; sourceTree = "<group>"; };
 		"CircuitBreaker::CircuitBreaker::Product" /* CircuitBreaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CircuitBreaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"CloudEnvironment::CloudEnvironment::Product" /* CloudEnvironment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CloudEnvironment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"CloudFoundryEnv::CloudFoundryEnv::Product" /* CloudFoundryEnv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CloudFoundryEnv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2782,6 +2784,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_14 /* JournalEntry.swift */,
+				2DB3DDEB2118C4E4007C4CEA /* EntryPersistence.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -5508,6 +5511,7 @@
 				OBJ_614 /* InitializationError.swift in Sources */,
 				OBJ_615 /* main.swift in Sources */,
 				OBJ_616 /* JournalEntry.swift in Sources */,
+				2DB3DDEC2118C4E4007C4CEA /* EntryPersistence.swift in Sources */,
 				OBJ_617 /* EntryRoutes.swift in Sources */,
 				OBJ_618 /* HealthRoutes.swift in Sources */,
 				OBJ_619 /* Metrics.swift in Sources */,
