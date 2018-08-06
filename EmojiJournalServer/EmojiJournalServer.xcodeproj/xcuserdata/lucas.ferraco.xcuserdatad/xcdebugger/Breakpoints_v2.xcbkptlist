@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sources/EmojiJournalServer/Routes/EntryRoutes.swift"
+            timestampString = "555022750.4566801"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "addEntry(entry:_:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sources/EmojiJournalServer/Routes/EntryRoutes.swift"
+            timestampString = "555022750.4567831"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "getAllEntries(_:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EmojiJournalServer.getAllEntries((Swift.Optional&lt;Swift.Array&lt;EmojiJournalServer.JournalEntry&gt;&gt;, Swift.Optional&lt;KituraContracts.RequestError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "EmojiJournalServer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucas.ferraco/Downloads/getting-started/starter/EmojiJournalServer/Sources/EmojiJournalServer/Routes/EntryRoutes.swift"
+                  timestampString = "555259021.109359"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((key: Swift.String, value: EmojiJournalServer.JournalEntry)) -&gt; EmojiJournalServer.JournalEntry in EmojiJournalServer.getAllEntries((Swift.Optional&lt;Swift.Array&lt;EmojiJournalServer.JournalEntry&gt;&gt;, Swift.Optional&lt;KituraContracts.RequestError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "EmojiJournalServer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucas.ferraco/Downloads/getting-started/starter/EmojiJournalServer/Sources/EmojiJournalServer/Routes/EntryRoutes.swift"
+                  timestampString = "555259021.112152"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "91">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,4 @@
+module memplugin {
+    umbrella "/Users/lucas.ferraco/Downloads/getting-started/starter/EmojiJournalServer/.build/checkouts/omr-agentcore-1826539389957424207/src/memplugin/include"
+    export *
+}
