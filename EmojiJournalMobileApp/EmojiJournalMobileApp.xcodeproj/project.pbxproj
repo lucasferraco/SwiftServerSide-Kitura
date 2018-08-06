@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DB3DDEE2118D655007C4CEA /* EmojiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB3DDED2118D655007C4CEA /* EmojiClient.swift */; };
 		534A904B201ABA070064BB58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534A904A201ABA070064BB58 /* AppDelegate.swift */; };
 		534A9050201ABA070064BB58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534A904E201ABA070064BB58 /* Main.storyboard */; };
 		534A9052201ABA070064BB58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 534A9051201ABA070064BB58 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		2AB18F1E8A859066D3F72D9C /* Pods-EmojiJournalMobileApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiJournalMobileApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmojiJournalMobileApp/Pods-EmojiJournalMobileApp.debug.xcconfig"; sourceTree = "<group>"; };
+		2DB3DDED2118D655007C4CEA /* EmojiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiClient.swift; sourceTree = "<group>"; };
 		534A9047201ABA070064BB58 /* EmojiJournalMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiJournalMobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		534A904A201ABA070064BB58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		534A904F201ABA070064BB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				534A9251201AD59C0064BB58 /* JournalEntry.swift */,
+				2DB3DDED2118D655007C4CEA /* EmojiClient.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				539EB8BE201BC57000ECA5AE /* AddEmojiViewController.swift in Sources */,
+				2DB3DDEE2118D655007C4CEA /* EmojiClient.swift in Sources */,
 				534A9252201AD59C0064BB58 /* JournalEntry.swift in Sources */,
 				539EB8BA201B9E5D00ECA5AE /* JournalTableViewCell.swift in Sources */,
 				539EB8B8201B9DA600ECA5AE /* JournalTableViewController.swift in Sources */,
