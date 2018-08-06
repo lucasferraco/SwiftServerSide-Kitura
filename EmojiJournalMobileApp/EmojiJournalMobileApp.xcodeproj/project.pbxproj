@@ -133,7 +133,6 @@
 				534A9044201ABA070064BB58 /* Frameworks */,
 				534A9045201ABA070064BB58 /* Resources */,
 				7F1CFA63CC38BAB8D6B5E148 /* [CP] Embed Pods Frameworks */,
-				A046F466D140FE3615770498 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,29 +217,16 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-EmojiJournalMobileApp/Pods-EmojiJournalMobileApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ISEmojiView/ISEmojiView.framework",
+				"${BUILT_PRODUCTS_DIR}/KituraKit/KituraKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ISEmojiView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KituraKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmojiJournalMobileApp/Pods-EmojiJournalMobileApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A046F466D140FE3615770498 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmojiJournalMobileApp/Pods-EmojiJournalMobileApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

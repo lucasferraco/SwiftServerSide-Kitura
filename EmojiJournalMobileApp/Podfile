@@ -6,5 +6,6 @@ target 'EmojiJournalMobileApp' do
   use_frameworks!
   pod 'ISEmojiView'
   # Pods for EmojiJournalMobileApp
+  pod 'KituraKit', :git => 'https://github.com/IBM-Swift/KituraKit.git', :branch => 'pod'
 
 end
