@@ -80,7 +80,7 @@ public class App {
     
     private func createNewDatabase() {
         Log.info("Database does not exist - creating new database")
-        client?.createDB("entrie", callback: { [weak self] (database, error) in
+        client?.createDB("entries", callback: { [weak self] (database, error) in
             guard let strongSelf = self else { return }
             guard let database = database else {
                 Log.error("Could not create new database: (\(String(describing: error?.localizedDescription)) - journal entry routes not created")
