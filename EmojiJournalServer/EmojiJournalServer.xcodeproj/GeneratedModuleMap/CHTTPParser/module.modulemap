@@ -1,4 +1,4 @@
 module CHTTPParser {
-    umbrella header "/Users/lucas.ferraco/Downloads/getting-started/starter/EmojiJournalServer/.build/checkouts/Kitura-net.git--7410958935072501107/Sources/CHTTPParser/include/CHTTPParser.h"
+    umbrella header "/Users/lucas.ferraco/Projects/SwiftServerSide-Kitura/EmojiJournalServer/.build/checkouts/Kitura-net.git--7410958935072501107/Sources/CHTTPParser/include/CHTTPParser.h"
     export *
 }

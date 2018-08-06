@@ -1,4 +1,4 @@
 module cpuplugin {
-    umbrella header "/Users/lucas.ferraco/Downloads/getting-started/starter/EmojiJournalServer/.build/checkouts/omr-agentcore-1826539389957424207/src/cpuplugin/include/cpuplugin.h"
+    umbrella header "/Users/lucas.ferraco/Projects/SwiftServerSide-Kitura/EmojiJournalServer/.build/checkouts/omr-agentcore-1826539389957424207/src/cpuplugin/include/cpuplugin.h"
     export *
 }

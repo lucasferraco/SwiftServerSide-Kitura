@@ -1,4 +1,4 @@
 module hcapiplugin {
-    umbrella "/Users/lucas.ferraco/Downloads/getting-started/starter/EmojiJournalServer/.build/checkouts/omr-agentcore-1826539389957424207/src/hcapiplugin/include"
+    umbrella "/Users/lucas.ferraco/Projects/SwiftServerSide-Kitura/EmojiJournalServer/.build/checkouts/omr-agentcore-1826539389957424207/src/hcapiplugin/include"
     export *
 }
