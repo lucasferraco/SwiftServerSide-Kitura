@@ -19,7 +19,7 @@ enum EmojiClientError: Error {
 extension UIApplication {
     var isDebugMode: Bool {
         let dictionary = ProcessInfo.processInfo.environment
-        return true//dictionary["DEBUGMODE"] != nil
+        return dictionary["DEBUGMODE"] != nil
     }
 }
 
