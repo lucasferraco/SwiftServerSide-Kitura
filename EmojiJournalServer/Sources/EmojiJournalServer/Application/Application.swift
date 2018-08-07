@@ -95,6 +95,7 @@ public class App {
         initializeMetrics(app: self)
         initializeHealthRoutes(app: self)
         initializeEntryRoutes(app: self)
+        initializeWebClientRoutes(app: self)
     }
     
     public func run() throws {
