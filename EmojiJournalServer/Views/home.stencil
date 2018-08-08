@@ -93,3 +93,17 @@
     xhr.send(body);
   };
 </script>
+
+<script type="text/javascript">
+  function deleteEntry(id) {
+    var xhr = new XMLHttpRequest();
+    xhr.open("DELETE", "/entries/" + id);
+    xhr.setRequestHeader("Content-Type", "application/json");
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState == XMLHttpRequest.DONE) {
+        location.reload();
+      }
+    }
+    xhr.send();
+  }
+</script>
