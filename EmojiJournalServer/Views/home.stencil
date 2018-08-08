@@ -71,3 +71,25 @@
     };
 </script>
 
+<script type="text/javascript">
+  function submitForm() {
+    var emoji = document.getElementById("add-new-emoji-field").value
+    var date = Math.floor((Date.now() / 1000) - 978307200) // Swift uses 1/1/2001 as epoch, JS uses 1/1/1970
+    if (emoji == "") {
+      alert("You must enter an emoji!");
+      return
+    }
+
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", "/entries");
+    xhr.setRequestHeader("Content-Type", "application/json");
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState == XMLHttpRequest.DONE) {
+        location.reload();
+      }
+    }
+
+    var body = JSON.stringify({"emoji": emoji, "date": date});
+    xhr.send(body);
+  };
+</script>
